@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Main/MainSurfaceScripts/Surface.cs" type="Script" id=1]
+[ext_resource path="res://Main/MainSurfaceScripts/Area2D.cs" type="Script" id=2]
+[ext_resource path="res://Main/DrawingSurface.cs" type="Script" id=3]
+[ext_resource path="res://Main/MainSurfaceScripts/Background.gd" type="Script" id=4]
+[ext_resource path="res://Main/MainSurfaceScripts/BoundsHitbox.gd" type="Script" id=5]
+[ext_resource path="res://Main/MainSurfaceScripts/Label.gd" type="Script" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[node name="Surface" type="Node2D"]
+pause_mode = 1
+script = ExtResource( 1 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+color = Color( 0, 0, 0, 1 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bounds" type="Area2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="BoundsHitbox" type="CollisionShape2D" parent="Bounds"]
+shape = SubResource( 1 )
+script = ExtResource( 5 )
+
+[node name="DrawingSurface" type="Node2D" parent="."]
+script = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 104.0
+margin_bottom = 14.0
+text = "Debug Mode On"
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="body_exited" from="Bounds" to="Bounds" method="_on_Area2D_body_exited"]
