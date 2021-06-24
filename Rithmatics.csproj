@@ -1,0 +1,10 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>Rithmatics</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Combinatorics" Version="2.0.0" />
+    <PackageReference Include="cs-matrix" Version="1.0.1" />
+  </ItemGroup>
+</Project>

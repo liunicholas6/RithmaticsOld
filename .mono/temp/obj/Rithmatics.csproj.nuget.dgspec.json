@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\purpl\\Desktop\\Godot\\RithmaticsMain\\Rithmatics.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\purpl\\Desktop\\Godot\\RithmaticsMain\\Rithmatics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\purpl\\Desktop\\Godot\\RithmaticsMain\\Rithmatics.csproj",
+        "projectName": "Rithmatics",
+        "projectPath": "C:\\Users\\purpl\\Desktop\\Godot\\RithmaticsMain\\Rithmatics.csproj",
+        "packagesPath": "C:\\Users\\purpl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\purpl\\Desktop\\Godot\\RithmaticsMain\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\purpl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Combinatorics": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            },
+            "cs-matrix": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\bin\ExportDebug\Rithmatics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\bin\ExportDebug\Rithmatics.pdb
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\bin\ExportDebug\Combinatorics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\bin\ExportDebug\cs-matrix.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\bin\ExportDebug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.csproj.AssemblyReference.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.AssemblyInfoInputs.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.AssemblyInfo.cs
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.csproj.CoreCompileInputs.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.csproj.CopyComplete
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsMain\.mono\temp\obj\ExportDebug\Rithmatics.pdb

@@ -1,0 +1,12 @@
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\bin\Debug\Rithmatics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\bin\Debug\Rithmatics.pdb
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\bin\Debug\Combinatorics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\bin\Debug\cs-matrix.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.csproj.AssemblyReference.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.AssemblyInfoInputs.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.AssemblyInfo.cs
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.csproj.CoreCompileInputs.cache
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.csproj.CopyComplete
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.dll
+C:\Users\purpl\Desktop\Godot\RithmaticsDemo\.mono\temp\obj\Debug\Rithmatics.pdb
