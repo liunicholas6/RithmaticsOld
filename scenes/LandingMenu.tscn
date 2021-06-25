@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/SceneButton.gd" type="Script" id=1]
+
+[node name="LandingMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+offset_left = 269.0
+offset_top = 76.0
+offset_right = 708.0
+offset_bottom = 241.0
+text = "Welcome to RITHMATICS!
+(Till we find a better name for it)"
+align = 1
+structured_text_bidi_override_options = []
+script = null
+
+[node name="Button" type="Button" parent="."]
+offset_left = 300.161
+offset_top = 289.108
+offset_right = 748.161
+offset_bottom = 376.108
+text = "Click here to start because this is just a placeholder menu"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

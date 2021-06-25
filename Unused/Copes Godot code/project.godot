@@ -1,0 +1,70 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Arc",
+"language": "GDScript",
+"path": "res://arc.gd"
+}, {
+"base": "Node2D",
+"class": "Arena",
+"language": "GDScript",
+"path": "res://Arena.gd"
+}, {
+"base": "Reference",
+"class": "Cope",
+"language": "GDScript",
+"path": "res://Cope.gd"
+}, {
+"base": "Reference",
+"class": "Geometry",
+"language": "GDScript",
+"path": "res://Geometry.gd"
+}, {
+"base": "Line2D",
+"class": "Line",
+"language": "GDScript",
+"path": "res://Line.gd"
+}, {
+"base": "Node2D",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Player.gd"
+}, {
+"base": "ResourceFormatSaver",
+"class": "TextureArraySaver",
+"language": "GDScript",
+"path": "res://addons/better-texture-array/texture_array_saver.gd"
+} ]
+_global_script_class_icons={
+"Arc": "",
+"Arena": "",
+"Cope": "",
+"Geometry": "",
+"Line": "",
+"Player": "",
+"TextureArraySaver": ""
+}
+
+[application]
+
+config/name="Rithmatist-Game"
+run/main_scene="res://Arena.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/energy_saving/keep_screen_on=false
+mouse_cursor/custom_image="res://chalk-useMe.png"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
