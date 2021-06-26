@@ -24,7 +24,7 @@ cabal.project.local~
 *.import
 *.csproj
 *.csproj.old
-
+.mono/
 
 
 
