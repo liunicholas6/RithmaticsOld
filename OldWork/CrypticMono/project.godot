@@ -11,21 +11,20 @@ config_version=4
 [application]
 
 config/name="Rithmatics"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://Main/Main.tscn"
 
 [autoload]
 
-Cope="*res://src/Cope.gd"
-Globals="*res://src/Globals.gd"
+Singleton="*res://Main/Singleton.cs"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PoolStringArray(  )
 
 [physics]
 
+common/enable_pause_aware_picking=true
 2d/default_gravity=0
-2d/default_gravity_vector=Vector2(0, 0)
+2d/default_gravity_vector=Vector2( 0, 0 )
 2d/default_linear_damp=0.5
 2d/default_angular_damp=5.0
-common/enable_pause_aware_picking=true
