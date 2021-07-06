@@ -22,9 +22,6 @@ cabal.project.local~
 .HTF/
 .ghc.environment.*
 *.import
-*.csproj
-*.csproj.old
-.mono/
 
 
 
