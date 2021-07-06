@@ -6,7 +6,7 @@ using System.Collections.Generic;
 Code for the drawing surface, which tracks mouse location and draws while mouse is down.
 Instantiates the type of drawn ritmatic line that fits best.
 */
-public class DrawingSurface: Node2D{
+public class DrawingSurface : Node2D{
     private bool _mouseDown;
     private List<Vector2> _points = new List<Vector2>();
     private Curve2D _curve = new Curve2D();
@@ -60,7 +60,8 @@ public class DrawingSurface: Node2D{
     }
 }
 //Interface for Drawn Lines
-public interface IDrawnLine{
+public interface IDrawnLine
+{
     float Detect(Curve2D curve);
 }
 //Types of Drawn Line Types
@@ -100,9 +101,7 @@ public class DrawnWarding : Warding, IDrawnLine{
         base._Draw();
     }
 }
-
-
-public class DrawnForbiddance: Forbiddance, IDrawnLine{
+public class DrawnForbiddance : Forbiddance, IDrawnLine{
     private float _error;
     public float Detect(Curve2D curve){
         Vector2[] globPts = curve.GetBakedPoints();
@@ -206,7 +205,6 @@ public class DrawnVigor : Vigor, IDrawnLine{
         _error/= _amp * _amp * _input.Length;
         _damageFactor = (float) (0.5 + Math.Pow(3, - Math.Abs(300 * _omega / _amp)));
         _pushFactor = (float) (0.5 + Math.Pow(3, - Math.Abs(_amp / _omega / 300)));
-        GD.Print("Push factor: ", _pushFactor, "Damage Factor: ", _damageFactor);
         return _error;
     }
     private class Axis{
