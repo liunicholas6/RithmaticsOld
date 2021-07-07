@@ -1,0 +1,76 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Forbiddance",
+"class": "DrawnForbiddance",
+"language": "GDScript",
+"path": "res://DrawnLines/DrawnForbiddance.gd"
+}, {
+"base": "Vigor",
+"class": "DrawnVigor",
+"language": "GDScript",
+"path": "res://DrawnLines/DrawnVigor.gd"
+}, {
+"base": "Warding",
+"class": "DrawnWarding",
+"language": "GDScript",
+"path": "res://DrawnLines/DrawnWarding.gd"
+}, {
+"base": "StaticBody2D",
+"class": "Forbiddance",
+"language": "GDScript",
+"path": "res://BaseLines/Forbiddance.gd"
+}, {
+"base": "Node",
+"class": "Invalid",
+"language": "GDScript",
+"path": "res://Invalid.gd"
+}, {
+"base": "Reference",
+"class": "LSRL",
+"language": "GDScript",
+"path": "res://LineHelpers/LSRL.gd"
+}, {
+"base": "Node2D",
+"class": "Vigor",
+"language": "GDScript",
+"path": "res://BaseLines/Vigor.gd"
+}, {
+"base": "RigidBody2D",
+"class": "Warding",
+"language": "GDScript",
+"path": "res://BaseLines/Warding.gd"
+} ]
+_global_script_class_icons={
+"DrawnForbiddance": "",
+"DrawnVigor": "",
+"DrawnWarding": "",
+"Forbiddance": "",
+"Invalid": "",
+"LSRL": "",
+"Vigor": "",
+"Warding": ""
+}
+
+[application]
+
+config/name="Rithmatics"
+run/main_scene="res://Main.tscn"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+2d/default_gravity=0
+2d/default_gravity_vector=Vector2( 0, 0 )
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
