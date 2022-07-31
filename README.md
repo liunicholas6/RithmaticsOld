@@ -1,3 +1,4 @@
+# This is outdated! Look go to the Rithmatics repository!
 # Rithmatist-Game
 A game based on Brandon Sanderson's "The Rithmatist"
 Or at least that's what we hope for some day.
